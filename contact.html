@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <link rel="icon" href="resources/mstile-310x150.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!--Stylesheets-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 <!--Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800" rel="stylesheet">
@@ -19,21 +21,18 @@
 
   <div id="container">
 
-    <!-- Nav -->
+    <!-- Navigation -->
     <div id="header">
       <nav class="nav" id="navbar">
-
         <img class="desktop-img" src="./resources/logo.png" alt="">
         <img class="mobile-img" src="./resources/logo-white.png" alt="">
 
         <div class="ul-fix-nav">
-
           <a data-toggle="modal" data-target="#exampleModalCenter" href="#">Join Us</a>
           <a target="_blank" href="./index.html">Home</a>
         </div>
 
-        <!-- Nav Mobile -->
-
+        <!-- Navigation Mobile -->
         <div class="menu-icon">
           <span></span>
           <span></span>
@@ -42,6 +41,7 @@
 
       </nav>
 
+      <!-- Drop Down Menu -->>
       <div id="drop-down">
         <ul>
           <li data-toggle="modal" data-target="#exampleModalCenter"> <a href="#">Join Us</a> </li>
@@ -54,7 +54,6 @@
     <div id="body">
 
       <!-- Modal -->
-
       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -85,23 +84,14 @@
       </div>
 
       <!-- Contact Form -->
-
-
       <div id="contact" class="container">
-
         <div class="row">
-
           <div class="col-xl-8 offset-xl-2 py-5">
-
             <h1>Send us a message</h1>
 
-
             <form id="contact-form" method="post" action="contact-us.php" role="form">
-
               <div class="messages"></div>
-
               <div class="controls">
-
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -163,22 +153,18 @@
                 <div class="row">
                   <div class="col-md-12">
 
-
                   </div>
                 </div>
               </div>
-
             </form>
 
           </div>
-
         </div>
       </div>
     </div>
 
 
     <!-- Footer -->
-
     <div id="footer">
       <footer>
         <h6> Aqua Hound 2019 ©</h6>
@@ -187,8 +173,6 @@
 
     </div>
   </div>
-
-
 
 
   <!-- Scripts -->
@@ -205,7 +189,6 @@
   <script type="text/javascript">
 
     /* Navigation */
-
     $(".menu-icon").on("click", function (event) {
       event.preventDefault();
       $("#drop-down").slideToggle();
