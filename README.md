@@ -5,12 +5,13 @@ Aqua Hound, landing page for a water securtiy product.
 You will need an internet connection, and a Code Editor installed (Atom, Visual Studio ).
 
 ## Installing
-1. install the latest version of NodeJS
+1. Install the latest version of NodeJS
 
 ## Deployment 
-1. Open your text editor and make sure you are in the main directory.
-2. install using npm by running `npm install -g surge`
-2. run surge from within any directory to publish that directory onto the web.
+1. Install surge by using npm (Node Package Manager), run `npm install -g surge` in your terminal.
+2. Open your Code Editor.
+2. Run `npx surge` in your Code Editor terminal.
+4. If you are unfimiliar with surge please visit - (https://surge.sh/help/getting-started-with-surge).
 
 ## Built With 
 Visual Studio Code
@@ -29,5 +30,5 @@ Jean Greeff, GitHub - https://github.com/greeffjean
 none
 
 ## Acknowledgments
-This project is a live landing-page for a local entrepenuer.
+This is an early project, built in 2018, currently live.
 
